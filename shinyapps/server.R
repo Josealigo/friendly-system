@@ -9,7 +9,6 @@
 
 library(shiny)
 library(dplyr)
-library(readr)
 library(DT)
 library(RMySQL)
 library(lubridate)

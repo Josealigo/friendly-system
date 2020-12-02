@@ -1,0 +1,41 @@
+su: ignoring --preserve-environment, it's mutually exclusive with --login
+
+Listening on http://127.0.0.1:39507
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+
+Attaching package: ‘DT’
+
+The following objects are masked from ‘package:shiny’:
+
+    dataTableOutput, renderDataTable
+
+Loading required package: DBI
+
+Attaching package: ‘lubridate’
+
+The following objects are masked from ‘package:base’:
+
+    date, intersect, setdiff, union
+
+Warning in .local(conn, statement, ...) :
+  Decimal MySQL column 3 imported as numeric
+Warning in .local(conn, statement, ...) :
+  Decimal MySQL column 4 imported as numeric
+Warning in .local(conn, statement, ...) :
+  Decimal MySQL column 3 imported as numeric
+Warning in .local(conn, statement, ...) :
+  Decimal MySQL column 4 imported as numeric
+Warning in .local(conn, statement, ...) :
+  Decimal MySQL column 3 imported as numeric
+Warning in .local(conn, statement, ...) :
+  Decimal MySQL column 4 imported as numeric
