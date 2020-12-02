@@ -1,0 +1,7 @@
+pandas 
+structlog 
+streamlit
+black
+altair
+vega-datasets
+mysqlclient
