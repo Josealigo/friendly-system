@@ -88,6 +88,6 @@ EXPOSE 8080 5555 8793
 
 USER airflow
 WORKDIR ${AIRFLOW_USER_HOME}
-RUN chmod +x entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+RUN chmod +x script/entrypoint.sh
+ENTRYPOINT ["script/entrypoint.sh"]
 CMD ["webserver"]
